@@ -8,20 +8,29 @@
 }
 .red-box{
     background-color: red;
-    position: relative;
-    top:30px;
-    left: 170px;
+    width: 200px;
+    height: 200px;
+
     /* bottom: 200px; no funciona por la posicion estatica */
 }
 /* Item con posicionamiento relatibo */
 .blue-box{
     background-color: blue;
-    position: absolute;
-    top:30px;
-    left: 180px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    right:150px;
+
 }
 .green-box{
     background-color: green;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 75px;
+    right: 225px;
+
 }
 .red-box, .blue-box, .green-box{
     width: 100px;
