@@ -1,0 +1,29 @@
+.container{
+    margin: 20px;
+    height: 200px;
+    display: flex;
+    border:1px solid blue;
+    padding: 20px;
+    width: 400px;
+    position: relative;
+}
+.red-box{
+    background-color: red;
+    /* bottom: 200px; no funciona por la posicion estatica */
+}
+
+.blue-box{
+    background-color: blue;
+    position: fixed;
+    top:0;
+    left:0px;
+}
+.green-box{
+    background-color: green;
+    position: relative;
+}
+.red-box, .blue-box, .green-box{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
