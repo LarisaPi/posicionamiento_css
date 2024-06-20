@@ -13,9 +13,10 @@
     left: 170px;
     /* bottom: 200px; no funciona por la posicion estatica */
 }
+/* Item con posicionamiento relatibo */
 .blue-box{
     background-color: blue;
-    position: relative;
+    position: absolute;
     top:30px;
     left: 180px;
 }
